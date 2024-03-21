@@ -114,8 +114,8 @@ begin
             i_reset => btnR,
             i_left => sw(15),
             i_right => sw(0),
-            o_lights_L(2 downto 0) => led(15 downto 0),
-            o_lights_R(2 downto 0) => led(0 to 2)
+            o_lights_L(2 downto 0) => led(15 downto 13),
+            o_lights_R(2 downto 0) => led(2 downto 0)
         );
         
     clock_divider_inst : clock_divider
